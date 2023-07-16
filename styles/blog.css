@@ -1,9 +1,27 @@
 /*common shared styles*/
 
+
+html{
+    width: 1920px;
+    height: 4847px;
+    text-align: center;
+    background-color: #ffdbe0;
+    width: 1922px;
+}
+
+
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    .subscription{
+        background-image:url(background/Rectangle\ 9.png);
+        width: 1922px; 
+        height: 429px;
+        
+    }
 }
+   
+
 
 
 .text-primary {
@@ -43,12 +61,14 @@ nav {
 .nav-title {
     color: black;
     font-size: 45px;
-    font: weight 800;
+    font-weight 800;
 }
 nav > ul{
     display: flex;
     align-items: center;
     margin: 0 240px ;
+    font-size: 20px;
+    font-weight:500;
 }
 nav li{
     list-style: none;
@@ -60,13 +80,17 @@ nav a{
 }
 /*header related styles*/
 .header{
-    background-color:rgba(229, 84, 115, 0.1)
+    background-color:#ffdbe0;
+    width: 1920px;
+    height: 850px;
+    
 }
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content:space-between ;
+    background-color: #ffdbe0
 }
 .banner .profile-pic{
     width: 635px;
@@ -89,82 +113,109 @@ nav a{
 }
 /*main section styles*/
 main{
-    max-width: 1140px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 /*our featured flower*/
+.feature{
+    align-items: center;
+    width: 100%;
+}
 .our-feature {
     font-size: 40px;
     font-weight: 40px;
     margin: 130px 0;
+    text-align: center;
 }
 /*product section*/
 .featureflower{
     text-align: center;
+    padding-top: 178px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 178px;
+
 }
 .featureinfo{
     text-align: center;
+    
+
 }
 .Featured{
     text-align: center;
     display: flex;
+    
 }
-.Featured figure{
-    margin-right: 10px;
-}
+
 .profile-pic{
-    width: 200px;
-    height: 250px;
+    width: 625px;
+    height: 800px;
     padding: 10px;
+    margin-top: 50px;
+    margin-left: 240px;
+    margin-bottom: 0px;
 }
 .img1{
-    width: 210px;
-    height:328px;
+    width: 310px;
+    height:428px;
     padding: 110px 78px 0px 76px;
     border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
+margin-left: 240px;
 }
 .img2{
-    width: 270px;
-    height: 270px;
+    width: 370px;
+    height: 370px;
     padding: 117px 47px 51px 47px;
     border-radius: 300px 300px 0px 0px;
 background: rgba(5, 151, 160, 0.15);
 }
 .img3{
-    width: 214px;
-    height: 371px;
+    width: 314;
+    height: 471px;
 padding: 67px 75px 0px 75px;
     border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
+margin-right: 240px;
 }
 .sale{
-    padding: 250px;
+    
     border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
 align-items: center;
 width: 100%;
-width: 1922px;
-height: 620px;
 
 }
 .sale1{
     display: flex;
-}
+    background-color: #c4c0c0;
+    width: 1922px;
+height: 620px;
+margin-top: 215px;
+margin-bottom: 128px;
+
+    }
 .deal{
-    font-size: 50px;
-    text-align: center;
-   
-}
-.sign{border-radius: 8px;
+    font-size: 40px;
+     font-weight: 800; 
+     margin-left: 423px;
+     margin-top: 230px;
+     
+    }
+.sign
+{
+    border-radius: 8px;
     background: #E55473;
     width: 155px;
     height: 64px;
+    margin-left: 603px;
+
 
 }
 .sale-info{
     width: 594px;
     height: 60px;
+    margin-left: 395px;
 }
 
 
@@ -172,7 +223,8 @@ height: 620px;
 .insta{
     background: #FFF;
     align-items: center;
-    width:100%;
+    
+   
     }
     .insta2{
         text-align: center;
@@ -181,30 +233,26 @@ height: 620px;
             font-size: 50px;
         }
         .img{
-            width: 200px;
-            height: 250px;
+            width: 342px;
+            height: 396px;
             padding: 10px;
+        
+            
         }
+        
        /*subscribe portion*/
     
-       .subscription{
-    background-image: url(background/Rectangle\ 9.png)
-    margin-top: 120px;
-    height: 460px;
-    border-radius: 8px;
-    background-repeat: no-repeat;
-    padding: 100px;
-    }
+       
 .subhead{
-color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+    
 }
-    }
+}
     .subclass{
         color: rgba(39, 39, 39, 0.60);
 text-align: center;
@@ -218,13 +266,19 @@ line-height: 30px;
         border: 8px;
         align-items: center;
         text-align: center;  
+        
     }
     .footer{
-        height: 300px;
+        margin-top: 128px;
+        height: 449px;
+        width: 1222px;
         background-color: black;
+        padding: 20px;
+        width: 100%;
     }
     .foothead{
         color: #E55473;
+    
         font-family: Lato;
         font-size: 48px;
         font-style: normal;
@@ -233,13 +287,54 @@ line-height: 30px;
         text-align: center;
     }
     .footinfo{
+        
+        font-size: 18px;
+        font-weight: 400;
         text-align: center;
-        color: #FFF;
+        color: #c4c0c0;
     }
     .caution{
         text-align: center;
-    color: #c4c0c0
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.40);
+    
+    
     }
-    
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        }
+    .img4{
+        margin-left: 186px;
+        margin-top: 100px;
+    }
+    .h{
+        display: flex;
+        justify-content: space-around;
+    }
+    .salespan{
+        color: #E55473;
+    }
+    .footspan{
+        color: #fff;
+    }
+    .icon2{
+        display: flex;
+        justify-content: space-around;
+        margin-top:128px ;
+        margin-bottom: 94px;
+        
 
+}
     
+    .imgi{
+        height: 88px;
+        width: 88px;
+    
+    
+        
+    }
